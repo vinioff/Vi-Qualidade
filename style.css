@@ -1,0 +1,145 @@
+/* Estilização do HEADER */
+
+/* Estilização geral */
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Tahoma', 'Arial';
+    color: #000000;
+}
+
+/* HEADER */
+header {
+    background-color: #faaee1;
+    padding: 30px 0;
+    text-align: center; /* Centraliza o conteúdo do header */
+}
+
+.divHeader {
+    position: relative;
+    display: inline-block; /* Centraliza o divHeader */
+}
+
+.logo {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%; /* Torna o logo redondo */
+    display: block; /* Centraliza o logo */
+    margin: 0 auto; /* Centraliza o logo */
+}
+
+nav {
+    font-size: x-large;
+    display: inline-block; /* Centraliza o menu de navegação */
+    margin-top: 20px; /* Adiciona espaço entre o logo e o menu */
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; /* Remove os marcadores da lista */
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px; /* Ajusta o espaçamento entre os itens do menu */
+}
+
+/* Banner */
+.baner {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+/* Sobre nós */
+.sobre_nos {
+    margin: 0;
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden; /* Impede que o float saia do container */
+}
+
+.img_sobrenos {
+    width: 25%; /* Ajusta a largura da imagem */
+    height: auto;
+    float: left; /* Faz com que a imagem fique à esquerda */
+    margin-right: 20px; /* Adiciona um espaçamento entre a imagem e o texto */
+    margin-bottom: 15px; /* Dá um espaçamento inferior à imagem */
+}
+
+.titulo_sobrenos {
+    text-align: center;
+    clear: both;
+}
+
+/* Estilização da sessão NOSSO ESTABELECIMENTO */
+
+
+.mapaGeral p {
+    text-align: center;
+}
+
+.mapa {
+    display: flex; /* Usando flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente, caso necessário */
+    margin-top: 20px; /* Adiciona um pequeno espaço acima */
+}
+.mapa iframe {
+    max-width: 100%; /* Garante que o mapa se ajuste responsivamente */
+    height: 450px; /* Altura fixa, mas pode ser ajustada conforme necessário */
+}
+
+/* Estilização da sessão NOSSOS PRODUTOS */
+.nossosprodutos {
+    padding: 2%;
+}
+
+.div_nossosprodutos {
+    width: 70%;
+    margin-left: 30%;
+}
+
+.img_nossosprodutos {
+    width: 15%;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px 0px #000000;
+    opacity: 1;
+    transition: 400ms;
+}
+
+.img_nossosprodutos:hover {
+    opacity: 0.5;
+}
+
+.lista_nossosprodutos {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+}
+
+.lista_nossosprodutos li {
+    line-height: 2;
+}
+
+.lista_nossosprodutos li:before {
+    content: "★ ";
+}
+.yt{
+    text-align: center;
+    display: flex; /* Usando flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente, caso necessário */
+    margin-top: 20px; /* Adiciona um pequeno espaço acima */
+
+}
+
+.video{
+    max-width: 100%; /* Garante que o mapa se ajuste responsivamente */
+    height: 450px; /* Altura fixa, mas pode ser ajustada conforme necessário */
+}
